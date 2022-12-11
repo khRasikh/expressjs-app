@@ -1,0 +1,29 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "Express JS ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khRasikh/expressjs-app.git"
+  },
+  "keywords": [
+    "Express",
+    "JS"
+  ],
+  "author": "Khudadad Rasikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khRasikh/expressjs-app/issues"
+  },
+  "homepage": "https://github.com/khRasikh/expressjs-app#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
