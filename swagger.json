@@ -1,0 +1,23 @@
+{
+  "openapi": "3.0.2",
+  "info": {
+    "title": "API Stripe",
+    "version": "1.0"
+  }, 
+  "paths": {
+    "/payment": {
+      "get": {
+        "description": "List all Payment test URL",
+        "responses": {
+          "200": {
+            "description": "Successfully featched payment details!",
+            "content": {
+              "application/json": {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
